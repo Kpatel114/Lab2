@@ -8,7 +8,7 @@
     <link rel="stylesheet" media="screen" href="css/screen.css" />
   </head>
     <body>
-	  <form action="/my-handling-form-page" method="post">
+	  <form action="#null" method="get" autocomplete="on">
 	    <div>
           <label for="mail">E-mail:</label>
           <input type="email" id="mail" name="user_mail">
@@ -20,9 +20,8 @@
         <div>
 		  <label for="dob">Date of Birth:</label>
 		  <input type="birthdate" id="dob" name="user_birthdate">
-        </div>
-		<div class="button">
-          <button type="submit">Submit</button>
+		<div id="submit">
+          <input type="submit" value="Submit" id="fontsize">
         </div>
 	  </form>
     </body>
